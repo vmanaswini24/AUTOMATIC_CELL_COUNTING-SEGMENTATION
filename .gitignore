@@ -1,0 +1,13 @@
+# Dataset files
+mCellSeg/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Keep generated results
+# Do not ignore results/
