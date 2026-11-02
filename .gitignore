@@ -1,6 +1,3 @@
-# Dataset files
-mCellSeg/
-
 # Python cache
 __pycache__/
 *.pyc

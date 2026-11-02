@@ -42,7 +42,6 @@ plt.title("Predicted vs Reference Cell Counts")
 plt.legend()
 plt.tight_layout()
 plt.savefig("results/cell_count_comparison.png", dpi=300)
-plt.show()
 
 # Graph 2: Dice scores
 plt.figure(figsize=(10, 5))
@@ -52,7 +51,6 @@ plt.ylabel("Number of Images")
 plt.title("Distribution of Dice Scores")
 plt.tight_layout()
 plt.savefig("results/dice_score_distribution.png", dpi=300)
-plt.show()
 
 # Graph 3: IoU scores
 plt.figure(figsize=(10, 5))
@@ -62,7 +60,6 @@ plt.ylabel("Number of Images")
 plt.title("Distribution of IoU Scores")
 plt.tight_layout()
 plt.savefig("results/iou_distribution.png", dpi=300)
-plt.show()
 
 # Graph 4: Average detected region area
 plt.figure(figsize=(10, 5))
@@ -72,6 +69,6 @@ plt.ylabel("Number of Images")
 plt.title("Distribution of Average Region Areas")
 plt.tight_layout()
 plt.savefig("results/average_area_distribution.png", dpi=300)
-plt.show()
 
 print("\nGraphs saved in the results folder.")
+plt.show()
